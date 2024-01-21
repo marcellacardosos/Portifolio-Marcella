@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
 
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-      
-        <link rel="stylesheet" href="/assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Responsive Portfolio Website</title>
-    </head>
-    <body>
-      <header class="header" id="header">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="">
+
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav_logo"> Marcella </a>
             <div class="nav_menu" id="nav-menu">
@@ -51,24 +53,24 @@
                         </a>
                     </li>
                 </ul>
-                <i class="uil uil-times nav_close" id="nav-close"></i> 
+                <i class="uil uil-times nav_close" id="nav-close"></i>
             </div>
             <di class="nav_btns">
                 <div class="nav_toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i> 
+                    <i class="uil uil-apps"></i>
                 </div>
             </di>
         </nav>
-        </header>
+    </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home_container container grid">
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
                 <div class="home_content grid">
                     <div class="home_social">
-                        <a href="https://www.linkedin.com/in/marcellacardoso/" target="_blank"class="home_social-icon">
+                        <a href="https://www.linkedin.com/in/marcellacardoso/" target="_blank" class="home_social-icon">
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
                         <a href="https://dribbble.com/" target="_blank" class="home_social-icon">
@@ -79,65 +81,120 @@
                         </a>
                     </div>
                 </div>
-                    <div class="home_img">
-                        
+                <div class="home_img">
+                    <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                            <image class="home_blob-img" x='12' y='18' href="/assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="home_data">
+                    <h1 class="home-title"> Oi, eu sou a Marcella </h1>
+                    <h3 class="home_subtitle"> Frontend developer </h3>
+                    <p class="home_description"> Sou uma desenvolvedora e criadora de WebDesigner </p>
+                    <a href="#contact" class="button button--flex"> Contate-me <i
+                            class="uil uil-message button_icon"></i>
+                    </a>
+                </div>
+                <di class="home_scroll">
+                    <a href="#about" class="home_scroll-button button--flex"> <i
+                            class="uil uil-mouse-alt home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Role abaixo</span> <i
+                            class="uil uil-arrow-down home_scroll-down"></i></a>
+                </di>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section_title"> Sobre mim </h2>
+            <span class="section_subtitle"> Minha Introdução </span>
+            <div class="about_container container grid">
+                <img src="/assets/img/about.jpg" alt="" class="about_img">
+                <div class="about_data">
+                    <p class="about_description"> Desenvolvedora web designer e UI/UX designer e Figma</p>
+                    <div class="about_info">
+                        <div>
+                            <span class="about_info-title"> 08+</span>
+                            <span class="about_info-name"> Anos <br> experiência </span>
+                        </div>
+                        <div>
+                            <span class="about_info-title"> 20+</span>
+                            <span class="about_info-name"> Projetos <br> completos </span>
+                        </div>
+                        <div>
+                            <span class="about_info-title"> 05+</span>
+                            <span class="about_info-name"> Empresas <br> trabalhados </span>
+                        </div>
+                    </div>
+                    <div class="about_buttons">
+                        <a href="/assets/pdf/"
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                
-            </section>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+        </section>
 
-            </section>
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+        </section>
 
-            </section>
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
+        </section>
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-            </section>
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+        </section>
 
-            </section>
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
+        </section>
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
 
-            </section>
-        </main>
+        </section>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-         
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
 
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        </section>
+    </main>
 
-    
-        <script src="/assets/js/main.js"></script>
-    </body>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+
+
+    <!--==================== SWIPER JS ====================-->
+    <script src=""></script>
+
+
+    <script src="/assets/js/main.js"></script>
+</body>
+
 </html>
